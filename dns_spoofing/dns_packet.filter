@@ -1,0 +1,3 @@
+if (ip.proto == UDP && udp.src == 53) {
+    execreplace("/tmp/dns_changer.py");
+}
